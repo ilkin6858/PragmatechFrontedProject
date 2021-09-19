@@ -1,0 +1,1 @@
+Burada ancaq js fayllari olacaq ve muellimin verdiyi alqoritmler yerlesecek.
