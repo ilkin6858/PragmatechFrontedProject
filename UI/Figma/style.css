@@ -1,0 +1,32 @@
+li{
+    padding: 0;
+    margin: 0;
+}
+
+#sect-header{
+    background-image: url("/UI/Figma/img/Rectangle\ 62.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-flag{
+    background-color: blue;
+    width: 305px;
+    height: 83px;
+}
+
+.navbar-menu ul{
+    display: flex;
+    list-style: none;
+  
+    
+}
+
+.navbar-menu ul li{
+   padding: 0px 10px;
+}
