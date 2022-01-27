@@ -236,6 +236,68 @@ top: 0; */
     
 }
 
+.mehsul{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meh-box{
+    width: 270px;
+    height: 2px;
+    background:linear-gradient(to bottom right, green, yellow)
+}
+
+.meh-box1{
+    width: 270px;
+    height: 2px;
+    background:linear-gradient(to bottom right, yellow, green)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grown-item{
+    height: 200px;
+  
+    
+    border-radius:10px ;
+    background-color:  #F5F5F5;
+
+}
+
+.grown-item img{
+   
+object-fit: cover;
+}
+
+.product-code{
+    margin-top: 28px;
+    height: 510px;
+   border-radius: 10px;
+   background-color:#F5F5F5 ;
+}
+
+.product-code img{
+    
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.golden-text{
+    text-align: center;
+    padding-top:20px ; 
+} 
+
 
 
 
