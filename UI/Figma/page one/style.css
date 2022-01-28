@@ -8,7 +8,7 @@ li{
 }
 
 body{
-    
+    font-family: 'Zilla Slab', serif;
 }
 /* start header page */
 
@@ -254,22 +254,8 @@ top: 0; */
     background:linear-gradient(to bottom right, yellow, green)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .grown-item{
     height: 200px;
-  
-    
     border-radius:10px ;
     background-color:  #F5F5F5;
 
@@ -285,6 +271,7 @@ object-fit: cover;
     height: 510px;
    border-radius: 10px;
    background-color:#F5F5F5 ;
+   position: relative;
 }
 
 .product-code img{
@@ -298,6 +285,102 @@ object-fit: cover;
     padding-top:20px ; 
 } 
 
+
+.vector{
+    height: 209px;
+    width: 208px;
+    position: absolute;
+    top: 50px;
+    left: 177px;
+} 
+
+.resipe-box{
+    position: relative;
+}
+
+.resipe-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resipe-text{
+    text-align: left;
+    color: rgb(248, 233, 233);
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.repise-text p,h5{
+    margin: 5px;
+    font-weight: 600;
+    font-style:normal ;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+.border-bottom{
+    border-bottom: 3px solid rgb(248, 233, 233);
+}
+
+
+.resipe-button{
+ 
+}
+
+.button{
+    width: 220px;
+    height: 50px;
+    background-color: #27AE60;
+    color: white;
+    border-radius: 33px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.adress{
+    background-color:#27AE60 ;
+    color: white;
+}
+
+.border-right{
+    border-right: 2px solid white;
+}
+
+.adress-icon{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size:20px ;
+ 
+}
+
+.adress-link{
+    margin: 0px 5px;
+}
+
+.--white{
+    color: white;
+}
+
+.--orange{
+color: orange;
+}
+
+.lawyer{
+    text-align: center;
+    color: white;
+}
 
 
 
