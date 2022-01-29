@@ -1,8 +1,14 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Zilla Slab', serif;
 }
+
+
+
+
 /* start header page */
-.container{
+.header-container{
     width: 1200px;
    display: flex;
     justify-content: flex-end;
@@ -64,9 +70,6 @@ p{
     margin-left: 10px;
 }
 
-
-
-
 .slider-container{
     position: relative;
 }
@@ -74,7 +77,6 @@ p{
 .slider-image{
     width: 890px;
     height: 240px;
-    
     margin: 30px auto;
    
 }
@@ -85,7 +87,6 @@ p{
     object-fit: cover;
     border-radius: 15px;
 }
-
 
 .slider-text{
     width: 300px;
@@ -99,10 +100,8 @@ p{
 .slider-text h3{
     font-weight: 400;
     font-style: normal;
-    
     line-height: 30px;
     letter-spacing: 2px;
-
 }
 
 .color{
@@ -110,30 +109,179 @@ p{
 }
 
 
-
-.food-container{
-    width: 100%;
-    height: 700px;
-   
+.product-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-  
+    position: relative;
+}
+
+.box{
+    height: 319px;
+    width: 280px;
+    /* border: 1px solid red; */
+    margin:0px 10px;
     
-    flex-wrap: wrap;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-text{
+    position: absolute;
+    bottom: 15px;
+    left: 200px;
+    color: white;
+}
+
+.product-text-2{
+    position: absolute;
+    bottom: 0;
+    left: 492px;
+    color: white;
+}
+
+.product-text-3{
+    position: absolute;
+    bottom: 0;
+    left: 793px;
+    color: white;
+}
+
+.product-text h3{
+    border-bottom: 2px solid white;
     
-    
-    
+}
+
+.product-container-new{
+    margin-top:20px ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.box-item{
+    width: 280px;
+    height: 319px;
+    /* border: 1px solid red; */
+    margin: 0px 10px;
+    position: relative;
+}
+
+.box-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-text{
+    color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
 
 }
 
-.food-box{
-    border: 1px solid red;
-    width: 200px;
-    height: 200px;
-    margin: 10px 10px;
-  
-    
+
+.direction{
+    /* border: 1px solid red; */
+     width: 1200px;
+     margin-top: 3em;
 }
+
+.direction-container{
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 400px;
+}
+.direction-box{
+    
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.direction-box a{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-decoration: none;
+}
+
+.direction-number{
+    font-size: 1em;
+}
+.--bg-white{
+    background-color: rgb(233, 227, 227);
+}
+
+.--bg-green{
+    background-color: #27AE60;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+.number-2{
+    color:#27AE60 ;
+}
+
+
+
+
+.adress{
+    background-color:#27AE60 ;
+    color: white;
+    padding-top: 30px ;
+    margin-top: 5em;
+}
+
+.border-right{
+    border-right: 2px solid white;
+}
+
+.adress-icon{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size:20px ;
+ 
+}
+
+.adress-link{
+    margin: 0px 5px;
+}
+
+.--white{
+    color: white;
+}
+
+.--orange{
+color: orange;
+}
+
+.lawyer{
+    text-align: center;
+    color: white;
+}
+
+
 
 
