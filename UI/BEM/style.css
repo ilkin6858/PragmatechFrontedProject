@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  /* border: 1px solid red; */
+  width: 1240px;
+  background: #0c5adb;
+}
+
+.topbar__container {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+
+.topbar__item {
+  /* border: 1px solid red; */
+  color: white;
+}
+
+.topbar__icon {
+  color: white;
+}
+
+.topbar__link {
+  color: white;
+  padding: 0px 7px;
+}
