@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+    height: 1500px;
+    grid-template-rows: 300px 1fr 300px;
+ 
+
+}
+
+#header{
+    grid-area:"header";
+
+}
+
+#content{
+    grid-area: "content";
+    display: grid;
+    grid-template-rows:3fr 8fr;
+
+}
+
+#footer{
+    grid-area: "footer";
+}
+
+div{
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 3fr 5fr 3fr;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:  3fr 3fr ;
+}
+
+.copyRightbox{
+    grid-column: 1/5;
+    text-align: center;
+    padding-top: 20px;
+}
+
