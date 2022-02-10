@@ -15,18 +15,34 @@
   --light-hover: rgba(217, 219, 220, 60%);
   --dark-color: #4f4a60;
   --dark-hover: rgba(0, 0, 0, 80%);
+  --gray-color:rgb(224, 224, 224);
+
+
 
   --color-white: #fff;
   --color-black: #212529;
   --color-blue: #007bff;
 
+
   --space-mr: 8px;
   --space-2mr: 16px;
+  --space-b:1px;
   --space-y: 3px;
   --space-x: 0.875rem;
   --space-2x: 1.5rem;
+  --space-z:50px;
+
+  /* text-size */
+  --text-size:1.4rem;
+
+  
+
 }
 
+
+
+
+/* used on all buttons*/
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -35,6 +51,14 @@
   margin-right: var(--space-mr);
   border-radius: var(--space-y);
 }
+
+
+/* border-radius */
+.btn-rounded{
+    border-radius:var(--space-z) ;
+}
+
+
 
 .btn-primary {
   background: var(--primary-color);
@@ -101,7 +125,7 @@
 
 .btn-dark {
   background-color: var(--dark-color);
-  color: var(--color-blackgh);
+  color: var(--color-white);
 }
 
 .btn-dark:hover {
@@ -117,3 +141,47 @@
 .btn-link:hover {
   text-decoration: underline;
 }
+
+
+.btn-outline--primary{
+    color:var(--primary-color) ;
+    border: var(--space-b) solid var(--primary-color);
+}
+
+.btn-outline--primary:hover{
+    background-color:var(--primary-color) ;
+    color: var(--color-white);
+}
+
+.btn-outline--secondary{
+    color: var(--gray-color);
+    background-color:var(--white-color);
+    border:var(--space-b) solid var(--secondary-color);
+    
+
+}
+
+.btn-outline--secondary:hover{
+    background-color:var(--secondary-hover) ;
+    color: var(--dark-color);
+}
+
+.btn-outline--success{
+  border: var(--space-b) solid var(--succes-color);
+}
+
+.btn-outline--success:hover{
+    background-color: var(--succes-color);
+    color:var(--color-white);
+}
+
+.btn-outline--danger{
+    border: var(--space-b) solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.btn-outline--danger:hover{
+    background-color: var(--danger-color);
+    color: var(--color-white);
+}
+

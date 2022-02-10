@@ -1,0 +1,11 @@
+.btn-page{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn-page-twho{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
