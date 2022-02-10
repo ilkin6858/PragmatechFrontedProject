@@ -1,12 +1,22 @@
 :root{
 --primary-color:#5e2572;
+--primary-hover:rgba(94,37,114, 90%);
 --secondary-color:#d9dbdc;
+--secondary-hover:rgb(217,219,220,70%);
 --succes-color:#00c689;
+--succes-hover:rgba(0,198,137,70%);
 --danger-color:#fc7242;
+--danger-hover:rgba(252,114,66,70%);
 --warning-color:#ffc100;
+--warning-hover:rgba(255,193,0,70%);
 --info-color:#4d13d1;
+--info-hover:rgba(77,19,209,80%);
 --light-color:#f8f9fa;
+--light-hover:rgba(217,219,220,60%);
 --dark-color:#4f4a60;
+--dark-hover:rgba(0,0,0,80%);
+ 
+
 
 
 --color-white:#fff;
@@ -33,24 +43,28 @@
     margin-top: var(--space-2mr);
     margin-right:var(--space-mr) ;
     border-radius: var(--space-y);
+   }
 
-}
-.btn:hover{
-    background-color:rgba(192,192,192,0.9)
-}
+   
+
 
 
 .btn-primary{
     background: var(--primary-color);
     color:var(--color-white) ;
-  
-    
+  }
+
+.btn-primary:hover{
+    background-color:var(--primary-hover) ;
 }
 
 .btn-secondary{
     background: var(--secondary-color);
     color: var(--color-black);
-  
+  }
+
+.btn-secondary:hover{
+    background-color: var(--secondary-hover);
 
 }
 
@@ -60,9 +74,17 @@
    
 }
 
+.btn-succes:hover{
+    background-color: var(--succes-hover);
+}
+
 .btn-danger{
     background-color: var(--danger-color);
     color:var(--color-white);
+}
+
+.btn-danger:hover{
+    background-color: var(--danger-hover);
 }
 
 .btn-warning{
@@ -70,9 +92,17 @@
     color:var(--color-black) ;
 }
 
+.btn-warning:hover{
+    background-color: var(--warning-hover);
+}
+
 .btn-info{
     background: var(--info-color);
     color: var(--white-color);
+}
+
+.btn-info:hover{
+    background-color: var(--info-hover);
 }
 
 .btn-light{
@@ -81,10 +111,29 @@
   
 }
 
-.btn-dark{
-    background: var(--dark-color);
-    color: var(--color-blackgh);
+.btn-light:hover{
+    background-color: var(--light-hover);
 }
+
+.btn-dark{
+    background-color: var(--dark-color);
+    color: var(--color-blackgh);
+   }
+
+.btn-dark:hover{
+    background-color: var(--dark-hover);
+   }
+
+ .btn-link{
+     background-color: var(--white-color);
+     text-decoration: none;
+     color: var(--color-blue);
+    }  
+
+    .btn-link:hover{
+        text-decoration: underline;
+    }
+
 
 
 
