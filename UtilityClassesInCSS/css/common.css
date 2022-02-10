@@ -185,3 +185,27 @@
     color: var(--color-white);
 }
 
+.btn-outline--warning{
+    border: var(--space-b) solid var(--warning-color);
+    color: var(--color-black);
+}
+
+.btn-outline--warning:hover{
+    background-color: var(--warning-color);
+}
+
+.btn-outline--info{
+    border: var(--space-b) solid var(--info-color);
+    color: var(--info-color);
+}
+
+.btn-outline--info:hover{
+    background-color:var(--info-color);
+    color: var(--white-color);
+
+}
+
+
+
+
+
