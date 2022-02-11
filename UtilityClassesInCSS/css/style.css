@@ -1,11 +1,25 @@
-.btn-page{
-    display: flex;
-    justify-content: space-around;
-    
+.btn-page {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Zilla Slab", serif;
 }
 
-.btn-page-twho{
-    margin-top: 10rem;
-    display: flex;
-    justify-content: space-around;
+.btn-page-twho {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+
+.icon-button {
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Zilla Slab", serif;
 }
