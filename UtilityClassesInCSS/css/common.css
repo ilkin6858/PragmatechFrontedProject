@@ -415,3 +415,12 @@
 .location__btn:hover {
   background-color: var(--succes-hover);
 }
+
+.btn-hover{color: var(--primary-color);
+background-color: var(--primary-hover2);
+border-radius:var(--space-z);
+}
+
+.btn-size{
+  font-size: 20px;
+}
