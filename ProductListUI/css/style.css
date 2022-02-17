@@ -11,8 +11,6 @@
   width: 290px;
   margin: 0px 20px;
   position: relative;
- 
- 
 }
 
 .box:hover .image-2 {
@@ -94,12 +92,12 @@
   z-index: 1;
   margin: 10px;
 }
-.box:hover .style-icon2{
-    display: block;
+.box:hover .style-icon2 {
+  display: block;
 }
 
-.box:hover .style-icon3{
-    display: block;
+.box:hover .style-icon3 {
+  display: block;
 }
 
 .style-icon {
@@ -114,10 +112,9 @@
   align-items: center;
 }
 
-.style-icon:hover{
-    background-color:#ebb5ac ;
+.style-icon:hover {
+  background-color: #ebb5ac;
 }
-
 
 .style-icon2 {
   height: 40px;
@@ -127,14 +124,12 @@
   font-size: 20px;
   display: inline-block;
   display: flex;
-  justify-self:center;
- display: none;
- 
- 
+  justify-self: center;
+  display: none;
 }
 
-.style-icon2 i{
-    padding: 10px;
+.style-icon2 i {
+  padding: 10px;
 }
 
 .style-icon3 {
@@ -147,16 +142,16 @@
   display: none;
 }
 
-.style-icon2:hover{
-    background-color:#ebb5ac ;
+.style-icon2:hover {
+  background-color: #ebb5ac;
 }
 
-.style-icon3:hover{
-    background-color:#ebb5ac ;
+.style-icon3:hover {
+  background-color: #ebb5ac;
 }
 
-.style-icon3 i{
-    padding: 10px;
+.style-icon3 i {
+  padding: 10px;
 }
 
 .space {
