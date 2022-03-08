@@ -34,3 +34,14 @@
   }
 }
 
+
+.btn-back{
+    width: $spacing-t;
+    height:$spacing-w ;
+    background-color:$color-A;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
