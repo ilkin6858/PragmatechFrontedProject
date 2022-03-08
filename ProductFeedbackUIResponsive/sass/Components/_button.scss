@@ -1,0 +1,36 @@
+.btn-secondary {
+  width: $spacing-t;
+  height: $spacing-q;
+  background-color: $secondary-color;
+  &:hover{
+      background-color:#C75AF6;
+  }
+}
+
+.btn-primary {
+  width: $spacing-t;
+  height: $spacing-q;
+  background-color: $primary-color;
+  &:hover{
+      background-color: #7C91F9;
+  }
+}
+
+.btn-dark {
+  width: $spacing-t;
+  height: $spacing-q;
+  background-color: $color-A;
+  &:hover{
+      background-color: #656EA3;
+  }
+}
+
+.btn-danger {
+  width: $spacing-t;
+  height: $spacing-q;
+  background-color: $color-B;
+  &:hover{
+      background-color: #E98888;
+  }
+}
+
