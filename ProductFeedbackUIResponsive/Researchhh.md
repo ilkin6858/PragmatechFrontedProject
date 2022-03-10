@@ -10,4 +10,57 @@
 
  3 - Madem mənim brauzerimdə V8-Engine yüklüdür niyə html kodu daxilində yazılan javascript kodları işləmir?
 
-    --brauzerler HTML olmadan islemir.Yeni brauzere melumat gondermek ucun HTML-den istifade olunur   
+    --script yazmasaq  html o kodları js kpdu kimi tanımır 
+       brauzerler HTML olmadan islemir.Yeni brauzere melumat gondermek ucun HTML-den istifade olunur.
+      v8-Engine olmadan js brauzerde islemir, 
+
+
+ 4 - ";" hansı hallarda istifadə edilir?
+
+     -- "" bu isare string tipli melumatlardan istifaa etmek ucun bize komey edir.
+        ; vergul ise her hansi kodun bitmeyini bildirir.Meselen bir setirde  console.log("hello");  alert("name")    bu sekilde yazan zaman ; bize lazim olur.
+
+
+5 -  Javascript-də comment yazmaq üçün neçə üsul var.
+
+    -- jsde yorum yazmaq ucun 2 cure yol var.
+    // tekce hemin setirde bize yorum yazir.
+   /*   */ isdediyimiz qeder kodu yoruma ala bilerik.
+
+
+ 6 -  let,var,const ifadələri arasında fərqlər nədir?
+
+
+
+ 7 -  dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+
+
+
+ 8 -  let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
+
+
+
+ 9 -  5 dəyəri yaddasa yazılarkən 2-li say sisteminə çevrilir və ona görə yaddaşda tutduğu yer hesablanır.Bəs 5.34 dəyərinin yaddaşda tutduğu yeri necə hesablamaq olar?
+
+
+
+
+ 10 - undefined, NaN və null dəyərlərinin yaddaşda nə qədər yer tutduğunu araşdırın
+
+
+ 11 -  let a; bu formada dəyişən təyin etmişəm.
+           Bu dəyişən yaddaşda stack-da mı yoxsa heap-də mi yerləşir
+              Bu dəyişən yaddaşda yer tuturmu? Tutursa nə qədər yer tutur?
+
+
+
+12 -  Ümumiyyətlə sizə görə bir məlumat növünü başqa məlumat növünə çevirmək nəyə lazımdır?
+
+
+
+13 -  Type Conversion necə formada həyata keçirilir?
+
+
+
+14 -  Type Conversion metodlarının siyahısını çıxarın
+     
