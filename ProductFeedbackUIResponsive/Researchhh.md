@@ -29,14 +29,41 @@
 
 
  6 -  let,var,const ifadələri arasında fərqlər nədir?
+       let ve const ECMAScript 6 ile gelen yeni deyisen elan etme usullaridir.Bundan var ile deyisen elan olunur.
 
+       -- var ile deyiseni yeniden elan ede bilirik ve melumati yenileyede bilirik.
+
+       -- let de deyisen yeniden elana bilmez amma daxildeki melumat yenilene biler.
+
+       -- const ise sabit deyiskendir,icerisindeki melumati yenileye bilmerik eyer const ile deyisen elan olunubsa vacibdirki deyisenin         icerisine melumat qoyaq eks halda undefined deyil, error qaytaracaq.
+
+       -- gelek esas ferqlerine: var global ve functional scopedir, yeni funksiya daxilinde var ile deyisen elan olunanda,funksiya xaricinde    caqirilila bilmez .
+
+       -- Amma if,switch ve for while dongulerinde elan olunan var deyiseni global scopedir, 
+
+       -- varin diger esas ferqi oz scopunda yuxari qalxma xususiyyetidir (variable hoisting).  Meselen console.log(ad); var ad="ilkin"; netice undefined olacaq, cunki ad deyisenin deyeri deyesenle birlikde yuxari qalxmir yalniz elan olunan deyisen yuxari qalxir. amma let ise error verecek
+
+       -- let ve const ise block scopedir.
+
+
+
+      
 
 
  7 -  dəyişən təyin edərkən adlandırma qaydaları nələrdir?
+   
+      -- deyisen teyin javascripitn acar sozlerinden istifade elemek qadaqandir.
+      -- deyisen reqemle baslaya bilmez,
+      -- deyisen - ile baslaya bilez.amma sonda veya ortada yazila biler.
+      -- $ _ teyin elemek olar.
+
+
+       
 
 
 
- 8 -  let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?
+ 8 -  let x=5;x=7 yazıldığı zaman nəticə 7 olur.Belə olan halda 5 dəyərinin aqibəti nə olur? Yaddaşda yer tutur mu 5 dəyəri yoxsa başqa proses mi gedir?.
+     -- let x=5 yazan stackda yer tutur amma x=daxiline yeniden deyer qoyduqda biz onun evvelki deyeri yaddasdan silinir ve yeni deyer yaddasa qeyd olunur.
 
 
 
@@ -51,6 +78,11 @@
  11 -  let a; bu formada dəyişən təyin etmişəm.
            Bu dəyişən yaddaşda stack-da mı yoxsa heap-də mi yerləşir
               Bu dəyişən yaddaşda yer tuturmu? Tutursa nə qədər yer tutur?
+                 
+                 --let a stack yaddasinda yerlesecek.
+
+
+                 
 
 
 
