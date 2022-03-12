@@ -88,6 +88,8 @@
 
 12 -  Ümumiyyətlə sizə görə bir məlumat növünü başqa məlumat növünə çevirmək nəyə lazımdır?
 
+    -- meselen "5" + 10  emeliyyatinin neticesi 510 olacaq , amma bize lazimdirki bunlari toplasin bu zaman biz number mestodunndan istifade edirik.
+
 
 
 13 -  Type Conversion necə formada həyata keçirilir?
@@ -95,4 +97,4 @@
 
 
 14 -  Type Conversion metodlarının siyahısını çıxarın
-     
+     -- Tostring, ToNumber, ToBoolean 
