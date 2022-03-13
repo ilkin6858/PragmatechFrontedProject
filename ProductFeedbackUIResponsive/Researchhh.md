@@ -97,4 +97,4 @@
 
 
 14 -  Type Conversion metodlarının siyahısını çıxarın
-     -- Tostring, ToNumber, ToBoolean 
+     -- Tostring, ToNumber, ToBoolean;
