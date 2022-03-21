@@ -51,3 +51,19 @@
 // console.log()
 
 //console.log("hello")
+
+
+let x=5;
+let y=7;
+let operator="/";
+
+if(operator=="+")
+  {
+    console.log(`${x}+${y}=${x+y}`);
+  }
+else if(operator=="-"){
+  console.log(`${x}-${y}=${x-y}`);
+}
+else if(operator=="/"){
+  console.log(`${x}/${y}=${x/y}`)
+}
