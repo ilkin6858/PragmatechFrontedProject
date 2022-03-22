@@ -53,17 +53,32 @@
 //console.log("hello")
 
 
-let x=5;
-let y=7;
-let operator="/";
+// let x=5;
+// let y=7;
+// let operator="/";
 
-if(operator=="+")
-  {
-    console.log(`${x}+${y}=${x+y}`);
-  }
-else if(operator=="-"){
-  console.log(`${x}-${y}=${x-y}`);
-}
-else if(operator=="/"){
-  console.log(`${x}/${y}=${x/y}`)
-}
+// if(operator=="+")
+//   {
+//     console.log(`${x}+${y}=${x+y}`);
+//   }
+// else if(operator=="-"){
+//   console.log(`${x}-${y}=${x-y}`);
+// }
+// else if(operator=="/"){
+//   console.log(`${x}/${y}=${x/y}`)
+// }
+
+// const now=new Date();
+// console.log(now)
+
+// let numone=50;
+// let numto=numone;
+// numone=100;
+// console.log(numone);
+// console.log(numto);
+
+
+// let x=Number(prompt("eded daxiledin"));
+// let y=typeof x;
+
+// alert(y)

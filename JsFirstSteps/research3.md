@@ -1,0 +1,37 @@
+Sual1: Dəyişən təyin edərkən ya da dəyər mənimsədərkən boşluqlardan istifadə etsək bu mənə error olaraq qayıdar mı? let a=5; let a= 5; bu iki formada yazılışlardan hansısa error verəcək mi?
+    --xeyir error vermiyecek ammaki usdunluk olaraq bosluqdan istifade edilmekdedir.
+
+
+
+Sual2:  Bütün proqramlaşdırma dillərində olduğu kimi Js-də xüsusi simvollardan istifadə edir. () və {} mötərizələri V8Engine tərəfindən necə analiz olunur? Bu mötərizələr tərcümə prosesində necə başa düşülür?
+
+     --() bu moterize if for looplarda ve funksiyalar istifade edilir. if ve forda () moterizede serti yzmaq ucun istifade olunur.Funksiyalarda ise daxiline parametir ve arguman gondermek ucun ve en esasida funksiyani isletmek ucun lazim olur.
+
+
+
+Sual3: let StudentName; let studentName; let studentname yazılışları arasında Javascript üçün hər hansı fərq varmı? Qısacası Javascript Case Sensitive dildir?
+
+    ----- beli javascript Case Sensitive dildir.yeni boyuk kicik herfe hessasdir.yuxarida yazdiqiniz deyisen adlarinin her biri ferqli deyisendir.V8Engine terefinden ferqli sekilde tercume olunur ve yaddasda ferqli yerlerde yerlesir.
+    Javascripde  camalCase adlandirma usulu daha cox populiyardir.Mende camalCase istifade edirem.
+
+
+
+Sual4:  Javascriptdə kod yazarkən indentation hansı hallarda istifadə olunur və mən kod yazarkən indentation istifadə etməyə məcburammı?
+
+  -- identation istifade elemek mecburi deyil ammaki bizim bir coxlu sayda kod yazmaqimiz gelecekde yazdiqimiz kodlar artan qarisiqliqa yol acacaq. ve seyfeni yuklenmesi suretlenmis olacaq.
+
+
+Sual5: let x=5; kodlarının v8engine tərəfindən tərcümə edilərək maşın dilinə çevrilmə prosesini necə təsəvüür edirsiniz?
+
+    --V8Engine kodu tercume edir ve stackda x adinda bir yer teyin olunur ve hemin yerin daxilne 5 number tipi yerlesdirilir.
+
+
+
+
+Sual6:   primitive və reference data tipləri deyə iki kategoriyaya ayrılma səbəbi nə ola bilər?
+
+      --
+
+
+
+
