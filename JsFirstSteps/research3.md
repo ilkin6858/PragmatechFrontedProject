@@ -35,3 +35,31 @@ Sual6:   primitive və reference data tipləri deyə iki kategoriyaya ayrılma s
 
 
 
+Sual7:  bu iki tip arasında fərqli xüsusiyyətlər nədir?
+
+        --
+
+
+Sual8:   bu data tiplərin yaddaşdakı yeri ilə əlaqədar senarilərinizi yazın. Yəni kod v8 enginə-nə ötürüldüyü zaman o kodun başına nə iş gəlir?
+
+      --
+
+
+Sual9:  data tiplərin bu formada iki kategoriyaya ayrılması sadəcə javascript dilinə xas xüsusiyyətdir yoxsa digər dillərdə də eyni yanaşma mövcuddur mu?
+
+     --
+
+
+
+Sual10:  Bu mövzunu öyrənmək proqramçı olaraq sizə nə qata bilər? Yəni bu mövzunu qavramağınız sizə nə fayda verəcək?
+
+
+
+Sual11: Bu tiplər başqa hansı dillərdə mövcuddur?
+
+
+
+
+
+
+

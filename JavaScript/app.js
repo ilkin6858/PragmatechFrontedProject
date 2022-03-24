@@ -82,3 +82,5 @@
 // let y=typeof x;
 
 // alert(y)
+
+let masin={ad:"bmw",model:"240"}
