@@ -49,12 +49,12 @@ Sual7:  bu iki tip arasında fərqli xüsusiyyətlər nədir?
 
 Sual8:   bu data tiplərin yaddaşdakı yeri ilə əlaqədar senarilərinizi yazın. Yəni kod v8 enginə-nə ötürüldüyü zaman o kodun başına nə iş gəlir?
 
-      --
+      -- primitib tipde yazilan kod meselen let name="ilkin" kodunu v8Engine yaddasda ona yeni stackda name adinda yer bron edir ve onun daxiline "ilkin" melumatini yerlesdirir.
 
 
 Sual9:  data tiplərin bu formada iki kategoriyaya ayrılması sadəcə javascript dilinə xas xüsusiyyətdir yoxsa digər dillərdə də eyni yanaşma mövcuddur mu?
 
-     --
+     --her bir pragramlasdirma dilinin ozune mexsus data tipleri var
 
 
 
@@ -62,7 +62,30 @@ Sual10:  Bu mövzunu öyrənmək proqramçı olaraq sizə nə qata bilər? Yəni
 
 
 
+
+NaN, null, undefined in Javascript.
+
+    
+
 Sual11: Bu tiplər başqa hansı dillərdə mövcuddur?
+ 
+    ----- bu tipler yalniz javascriptde mexsus olan tipdi.
+
+
+
+
+Sual12: NaN null və undefined bunlardan hansı data tipdir və növləri nədir? Primitive yoxsa reference tip olub olmadığı haqqında nə deyə bilərsiz?
+
+     ---null ve undefined data tipdir, NaN Number data tipinin novudur.Bunlar primitive data tiplerdir.
+
+
+Sual13: expression deyiləndə nə başa düşməyim lazımdır?
+
+        --javascript expression ifadeler anlamina gelir.
+
+Sual14:operator və expression arasında fərqlər nələrdir?
+
+        --operator emeliyyatlari yerine yetirmek ucun istifade olunur.             
 
 
 
