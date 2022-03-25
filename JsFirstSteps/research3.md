@@ -30,14 +30,21 @@ Sual5: let x=5; kodlarının v8engine tərəfindən tərcümə edilərək maşı
 
 Sual6:   primitive və reference data tipləri deyə iki kategoriyaya ayrılma səbəbi nə ola bilər?
 
-      --
+      --cunki her ikisinin v8Engine terefinden tercume olunma ve yaddasda saxlanilma prosesi ferqlidir
 
 
 
 
 Sual7:  bu iki tip arasında fərqli xüsusiyyətlər nədir?
 
-        --
+        -- primitiv data tipleri deyerlerine gore muqayise oluna biler.amma referasn tiplerde bu olmur,
+        -- primitiv data tiplerinin icerisini deyisdire bilmirik,amma referansda bunlar mumkundur.
+        --primitib tipler stackda yerlesir, referanslarda gostericisi stackda, melumatin  ise heapda yerlesir.
+        --primitiv data tiplerini  deyisdirmek olmur,meselen let word="javascript"  deyisenin icerisindeki j herfini deyisdire bilmirk
+        --primitiv data tipleri deyerlerine gore muqayise olunur, referans tipler ise deyerlerine  mmuqayise oluna bilmir,yalniz referanslarina gore muqayise olunur.
+        --primitiv dapa tipkerinnin daxilinde 1 deyer tuta bilirik, refereranslarda  moterezelerin icinde 1 den cox deyer tuta bilirik.
+        --primitiv data tiplerinde yalniz 1 nov melumat ola biler, referanslarda ferqli melumat novlerini saxlamaq mumkundu ise string, number, undefined ves ola bilir,
+
 
 
 Sual8:   bu data tiplərin yaddaşdakı yeri ilə əlaqədar senarilərinizi yazın. Yəni kod v8 enginə-nə ötürüldüyü zaman o kodun başına nə iş gəlir?
@@ -56,6 +63,8 @@ Sual10:  Bu mövzunu öyrənmək proqramçı olaraq sizə nə qata bilər? Yəni
 
 
 Sual11: Bu tiplər başqa hansı dillərdə mövcuddur?
+
+
 
 
 
