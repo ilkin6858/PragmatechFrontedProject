@@ -83,4 +83,9 @@
 
 // alert(y)
 
-let masin={ad:"bmw",model:"240"}
+// let masin={ad:"bmw",model:"240"}
+
+
+function nameoffunciton () {
+
+}

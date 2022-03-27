@@ -83,14 +83,24 @@ Sual13: expression deyiləndə nə başa düşməyim lazımdır?
 
         --javascript expression ifadeler anlamina gelir.
 
-Sual14:operator və expression arasında fərqlər nələrdir?
+Sual14: operator və expression arasında fərqlər nələrdir?
 
-        --operator emeliyyatlari yerine yetirmek ucun istifade olunur.             
-
-
+        --operator emeliyyatlari yerine yetirmek ucun istifade olunur.
 
 
 
+Sual15: function ümumiyyətlə nə üçün istifadə edilir?
+ 
+    --funksiyalar mueyyen bir isi yerine yetirmek ucun bir kod blokudu.
+    --tekrarlanmanin qarsini ala bilmek ucun istifade olunur ve cetin olan bir isi parcalara ayririb gormek ucun.
+
+
+
+Sual15:  function istifadə etmənin kod yazarkən gətirdiyi faydalar?
+
+      --Funksiya kodu təkrar istifadə edilə bilən edir. biz onu bir dəfə bəyan edib, dəfələrlə istifadə edə bilərik.
+      --Funksiya proqramı asanlaşdırır, çünki hər bir kiçik tapşırıq bir funksiyaya bölünür.
+      --Function increases readability.
 
 
 
