@@ -122,3 +122,8 @@ Sual19:function icra olunduğu zaman yaddaşda necə yer tutur?
 
 
 
+
+
+
+
+
