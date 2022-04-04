@@ -86,6 +86,59 @@
 // let masin={ad:"bmw",model:"240"}
 
 
-function nameoffunciton () {
+// function nameoffunciton () {
 
-}
+// }
+
+
+// function topla(a,b){
+//   x=a+b
+//   return x
+ 
+  
+// }
+
+
+// console.log(topla(3,4))
+
+// let x=function(num){
+//   return num*num
+// }
+
+// console.log(x(4));
+// let y=x(6);
+// console.log(y);
+// let z=x(9);
+// console.log(z)
+
+
+// if(true){
+//   const mesaj="hello"
+// }
+
+// console.log(mesaj)
+
+
+// {
+//   const mesej="hello";
+// }
+//  console.log(mesaj)
+
+// 
+
+// for(const color =['red','green','blue']){
+//   const mesaj="hi";
+//   console.log(color);
+//   console.log(mesaj)
+  
+  
+  
+// }
+
+
+// for (const color of ['een','ed', 'blue']) {
+//   // "for" block scope
+//   const message = 'Hi';
+//   console.log(color);   // 'green', 'red', 'blue'
+//   console.log(message); // 'Hi', 'Hi', 'Hi'
+// }

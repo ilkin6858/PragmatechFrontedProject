@@ -113,6 +113,8 @@ Sual16:  necə formada function təyin etmək olar?
 
 Sual17:scope anlayışı nədir? 
 
+ --deyisenlere muraciet etmek ucun mueyyenlesdirilmis bir qayada-qanundur
+
 
 Sual18:void və return function nədir? Hansı hallarda istifadə olunur?
 
