@@ -118,6 +118,8 @@ Sual17:scope anlayışı nədir?
 
 Sual18:void və return function nədir? Hansı hallarda istifadə olunur?
 
+  --
+
 
 Sual19:function icra olunduğu zaman yaddaşda necə yer tutur?
 

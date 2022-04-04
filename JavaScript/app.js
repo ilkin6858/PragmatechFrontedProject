@@ -142,3 +142,86 @@
 //   console.log(color);   // 'green', 'red', 'blue'
 //   console.log(message); // 'Hi', 'Hi', 'Hi'
 // }
+
+// if(true){
+//   var ad="ilkin"
+//   console.log(ad)
+// }
+
+// console.log(ad)
+
+// function foo(){
+//   var ad="ilkin";
+//   console.log(ad)
+// }
+
+// foo()
+
+// function run (){
+//   const message="run forrest run";
+  
+//   if(true){
+//     const friend="rubba";
+//     console.log(message)
+//   }
+//   console.log(friend)
+// }
+
+// run()
+
+
+// function outher(){
+//   let out="outside"
+  
+//   function inner(){
+//     console.log(out)
+//   }
+//   return inner
+// }
+// const qaytar=outher()
+
+
+// qaytar()
+
+// function outher(){
+//   let ad="ilkin";
+  
+//   function inner(){
+//     let ad="samir"
+//     console.log(ad)
+//   }
+//   inner()
+//   console.log(ad)
+// }
+
+// outher()
+
+// function foo(){
+    //   let ad="ilkin"
+    //   console.log(ad)
+      
+    //   function soy(){
+    //     let soyad="qasimov"
+    //     console.log(ad+soyad)
+    //   }
+    //   soy()
+    // }
+    
+    // foo()
+
+
+    // function outerFunc() {
+        //   let outerVar = 'I am outside!';
+        //   function innerFunc() {
+        //     console.log(outerVar); // => logs "I am outside!"
+        //   }
+        //   return innerFunc;
+        // }
+        
+        // function exec(){
+        //   let my=outerFunc();
+        //   my()
+          
+        // }
+        
+        // exec()
