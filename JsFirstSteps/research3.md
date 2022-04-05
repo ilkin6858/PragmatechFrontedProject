@@ -118,10 +118,13 @@ Sual17:scope anlayışı nədir?
 
 Sual18:void və return function nədir? Hansı hallarda istifadə olunur?
 
-  --
+  --void funksiyalara neticesi olmayan funksiyalarda demek olar,yeni hec bir deyer qaytarmir ekranda gosderirmir,
+  --return funksiyalarda ise ekrana netice qaytaran funskiyalardir
 
 
 Sual19:function icra olunduğu zaman yaddaşda necə yer tutur?
+
+   -- funksiyalar referenas tipler olduqu ucun, onlarin daxilindeki melumatlar heapda yerlesir,funskiyalarin adi stackda yerlesir, 
 
 
 

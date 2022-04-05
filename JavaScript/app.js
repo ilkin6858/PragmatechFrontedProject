@@ -225,3 +225,131 @@
         // }
         
         // exec()
+
+
+        // let a=6;
+// if(let a=9){
+//   console.log(a)
+// }
+// else{
+//   console.log("sas")
+// }
+
+// let a=34;
+// {const a=90;
+// console.log(a)}
+// console.log(a)
+
+// let a=89;
+// console.log(a)
+
+
+// let a=6;
+// if(let a=9){
+//   console.log(a)
+// }
+// else{
+//   console.log("sas")
+// }
+
+// let a=34;
+// {const a=90;
+// console.log(a)}
+// console.log(a)
+
+// let a="4";
+// const a="1";
+// console.log(a)
+
+// const a=90;
+
+// function foo(){
+//   let a="salam";
+//   console.log(a)
+// }
+// console.log(a)
+// foo()
+
+
+// let a=90;
+//  function foo(){
+//    a=30;
+//    console.log(a)
+//  }
+
+// foo();
+// console.log(a)
+// foo()
+// console.log(a)
+
+
+// let a=45;
+// function foo(){
+//   a=100;
+//   console.log(a)
+// }
+
+// console.log(a)
+// foo()
+// console.log(a)
+
+
+
+/*
+funksiyalarin teyin olunmasina 3-curdur:
+   function declaration
+1-ci function foo(){
+
+}
+
+
+function assigment
+2-ci  let foo=function(){}
+
+ arrow function
+3-cu  let bar=()=>{}
+
+
+
+
+
+/**
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
