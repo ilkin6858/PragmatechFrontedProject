@@ -129,6 +129,21 @@ Sual19:function icra olunduğu zaman yaddaşda necə yer tutur?
 
 
 
+   Day19 [ 19 March 2022]  Mövzular və Araşdırma
+
+Sual20: Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza nə gəlir? Yəni bir proqramlaşdırma dili necə dizayn edilə bilər?
+
+    --proqramlasdirma dilinin dizayn olunmasi onun developerler terefinden nece dizayn olunmasina baqldir,
+    her programladirma dilinin dizayn olunmasi ferqlidir,Meselen javascriptde funskiyanin yazilmasi ile her hansisa bir compiler c# olan dilde funksiya yazilmasi ferqlidir.
+
+
+
+Sual20:Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın?
+
+       --
+
+
+
 
 
 
