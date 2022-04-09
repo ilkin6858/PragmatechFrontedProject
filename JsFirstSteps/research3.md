@@ -150,6 +150,13 @@ Sual21:Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilər
     -- Dekarativs
 
 
+
+
+
+
+imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin
+
+
     
 
 
