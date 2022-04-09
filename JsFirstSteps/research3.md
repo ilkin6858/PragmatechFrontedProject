@@ -140,7 +140,17 @@ Sual20: Proqramlaşdırma dillərinin dizayn olunması deyiləndə ağlınıza n
 
 Sual20:Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr tapın?
 
-       --
+       -- dekarativ yanasmada esas olan son neticedir,meselen restaranda yemey sifarisi vermek dekarativdir,
+       --imperativlikde ise gorulecek is onemlidir, her isi ozumuz gormelik oluruq,meselen c pragramlasdirma dilinde gorulen her is imperativdir
+
+
+
+Sual21:Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?
+
+    -- Dekarativs
+
+
+    
 
 
 
