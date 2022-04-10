@@ -147,15 +147,27 @@ Sual20:Öz həyatınızda imperativ və deklarativ yanaşmaya aid nümunələr t
 
 Sual21:Deklarativ yanaşma və funksiyalar arasında əlaqəni necə qura bilərsiniz?
 
-    -- Dekarativs
+    -- dekarativ yanasmada gorulen isin neticesi maraqladir, funksiyada toplama emeliyyatinin yerine yetirilmesi imperativ, funksiyanin caqirilmasi ve toplamaninmyerine yetirilmesi ise dekarativdir,
 
 
 
+Sual22:imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin.
 
 
 
-imperative və deklarative yanaşmaya aid kod nümunələri yazın özünüz üçün .Düzgün olub olmadığını yoldaşlarınızla analiz edin
+Sual23:Function necə formada təyin olunur?
+   
+     --funksiyanin teyin edilmesi function acar sozu ve yaninda gorulecek isin adi (){};
 
+
+
+Sual24:Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
+
+    --
+
+    Sual24:Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
+
+    --
 
     
 
