@@ -163,11 +163,59 @@ Sual23:Function necə formada təyin olunur?
 
 Sual24:Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
 
-    --
+    
 
-    Sual24:Fərqli formada function təyin etmə sizcə hansı hallarda lazım ola bilər?
 
-    --
+Sual25:function scope və global scope arasında fərqlər nədir?   
+
+     --function scole elan olunan deyisenler yalniz hemin funksiya daxilinde kecirlidir, globalda caqirila bilmez.
+     --Global scopda elan olunan deyisen ise function scopeda caqirila biler, hetda icerisinde deyise bilerik.
+
+
+Sual26:function ramdə necə yer tutur?
+
+  --function referanslar olduqu ucun function icra olunan zaman heapda yerlesir, amma funksiyanin adi stackda gosderilir.
+
+
+ Sual27:Javascript kodlarının arxa planda işləmə prinsipi necədir?
+
+  --kod yazdiqimiz zaman v8Enginee yazdiqimiz kodlari tercume edir masin diline yaddasda yerlesdirir.
+  yaddasda yerlesme sekiledeki primitiv tipler stackda yerlesdirilir, referans tipler ise heapda yerlesdirilir.
+
+
+ Sual28:Allocate memory-use memory- release memory ifadələri nə deməkdir?
+     
+     --yaddas 3 hisseden ibaretdir.1-cisi Allocate memory menasi yaddasda yer ayirmaq demekdir.yeni biz deyerleri elan eden zaman onlar ucun yaddasda yer ayrilir,bu proses Allocate memory adlanir.
+
+     --use memory:yaddasda evvelceden Allocate olunmus melumatin interpret terefinden oxunmasi ve terdcume olunma prosesidir ve hemin melumatlardan istifade olunma prosesi
+
+     --release memory:artiq melumatlara ehdiyyacimiz olmuyanda,yaddasdan melumatlar atilir,bu proses garbage collection adlanir.
+    
+
+
+Sual29:Static allocation vs dynamic allocation?
+
+   --Static allocation-primitiv melumatlarin stcakda yerlesdirirlmesi prosesi adlanir,bura reqemler,stringler  aiddir.ve obyekleri ve funskiyali adlari yerlesdirilir.
+
+   --dynamic allocation- heapda saxlanilan referans tipleridir,bura obyektler,funksiyalar ves 
+
+Sual30:garbage collection nədir?
+
+     --javascript high level dil olduqu ucun yaddasin temizlenmesini ozu avtomatik olaraq heyata kecirilir,
+     jvascript melumatlari istifade eledikden sonra lazim olmayan melumatlari zibil qutusuna bosaldir.bu proses garbage collection adlanir.
+
+Sual41:hoisting nədir?
+
+     --funksiyanin icrasindan evvel ekrana cap olunmasi, deyisenin ise console.log edib daha sonra  elan olunmasidir,evvel , bu kodda bezen errorlara getirib cixardir.istifade edilmesi meslehet gorulmur
+
+Sual42:scope və hoisting ifadələri arasında fərq nədir?
+
+    --scopeler gorulen isler hemin scope daxilinde ve globalda  olur,hoistingde ise oz scopelerinden yuxaride icra olunur.
+
+
+    
+
+    
 
     
 
