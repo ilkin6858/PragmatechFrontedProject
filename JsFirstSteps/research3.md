@@ -213,6 +213,40 @@ Sual42:scope və hoisting ifadələri arasında fərq nədir?
     --scopeler gorulen isler hemin scope daxilinde ve globalda  olur,hoistingde ise oz scopelerinden yuxaride icra olunur.
 
 
+
+
+
+
+    
+Day20-21 [ 26-27 March 2022]
+
+
+Sual43:void və return function nədir?
+
+    --
+
+
+
+Sual44:return keyword-unun var olma məqsədi nədir?
+
+    --
+
+
+Sual45:block scope vs function scope vs global scope fərqlər nədir?
+
+  --
+
+
+
+ Sual46:function literal nədir?
+
+   --index->value vs key->value fərqləri nədir
+
+
+Sual47:
+while loop?
+for loop?
+for in loop?s
     
 
     
