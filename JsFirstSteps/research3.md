@@ -223,18 +223,21 @@ Day20-21 [ 26-27 March 2022]
 
 Sual43:void və return function nədir?
 
-    --
+    --woid funkisayalar deyer qaytarmiyan funksiyalara deyilir, sadece olartaq biize isi icra edir.
+    --return funksiyalar ise deyer qaytaran funksiyalara deyilir, ve hemin deyeri basqa bir yerde istifade elemeyimize serait yaradir.
 
 
 
 Sual44:return keyword-unun var olma məqsədi nədir?
 
-    --
+    --return esas meqsade gorduymuz isin netiecesini basqa bir funksiyada istifade ede bilirik ve return kelmesinden sonra yazilan hec kod islemir.
 
 
 Sual45:block scope vs function scope vs global scope fərqlər nədir?
 
-  --
+  --block scopede teyin olunan deyisenler yalniz hemin block scopun daxilinde caqirmaq mumkundu.
+  --function scope, teyin olunan deyisenler yalniz hemin funksiyanin daxilinde caqirila biler.
+  --global scope, teyin olunan deyisenler her yerde caqirila biler
 
 
 
